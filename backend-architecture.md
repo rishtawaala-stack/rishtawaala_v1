@@ -50,24 +50,25 @@ Request flow:
 ## 4. Recommended Project Structure
 
 ```text
-src/
-  app.js
-  server.js
-  config/
-  routes/
-  controllers/
-  services/
-  repositories/
-  middleware/
-  validators/
-  policies/
-  jobs/
-  utils/
-  docs/
-tests/
-  unit/
-  integration/
-  e2e/
+backend/
+  src/
+    app.js
+    server.js
+    config/
+    routes/
+    controllers/
+    services/
+    repositories/
+    middleware/
+    validators/
+    policies/
+    jobs/
+    utils/
+    docs/
+  tests/
+    unit/
+    integration/
+    e2e/
 ```
 
 Recommended route files:

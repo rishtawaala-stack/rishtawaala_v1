@@ -2,6 +2,8 @@
 
 Production-oriented `Node.js + Express.js` backend scaffold for the rishtawaala platform.
 
+The backend application now lives in [`backend/`](/C:/Users/ARIN/OneDrive/Desktop/Rishtawaala/backend).
+
 ## Included
 
 - versioned API under `/api/v1`
@@ -15,14 +17,20 @@ Production-oriented `Node.js + Express.js` backend scaffold for the rishtawaala 
 
 ## Quick Start
 
-1. Copy `.env.example` to `.env`
-2. Install dependencies:
+1. Change into the backend directory:
+
+```bash
+cd backend
+```
+
+2. Copy `.env.example` to `.env`
+3. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Start the server:
+4. Start the server:
 
 ```bash
 npm run dev
